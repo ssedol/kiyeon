@@ -1,0 +1,13 @@
+.DB_banner4 ul , .DB_banner4 li{margin:0;padding:0;list-style:none}
+.DB_banner4 img{border:0}
+
+.DB_banner4{position:relative;width:1000px/*화살표포함*/}
+.DB_banner4 .DB_mask{position:relative;width:1000px/*이미지전체*/;margin:0 auto;height:300px;overflow:hidden;}
+.DB_banner4 .DB_imgSet{position:absolute;}
+.DB_banner4 .DB_imgSet li{float:left;width:250px/*이미지사이공간포함*/;}
+.DB_banner4 .DB_imgSet li a{width:220px/*이미지사이즈*/;height:220px;border:1px solid #dddddd;display:block;color:#000000;padding:0px;}
+.DB_banner4 .DB_imgSet li a:hover{opacity:0.8;border:1px solid #000000}
+.DB_banner4 .DB_imgSet li p{position:absolute;bottom:-35px;width:220px;text-align:center;font-size:14px; font-weight:none;}
+.DB_banner4 .DB_nextBtn{position:absolute;top:50%;margin-top:-45px;cursor:pointer;right:0}
+.DB_banner4 .DB_prevBtn{position:absolute;top:50%;margin-top:-45px;cursor:pointer;left:0}
+

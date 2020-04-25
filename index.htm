@@ -1,0 +1,368 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<!-- saved from url=(0041)http://skin.leeshosting.com/H42/index.php -->
+<html xmlns="http://www.w3.org/1999/xhtml"><head><meta http-equiv="Content-Type" content="text/html; charset=EUC-KR">
+<title>상단제목</title>
+
+<meta http-equiv="imagetoolbar" content="no">
+<meta http-equiv="X-UA-Compatible" content="IE=Edge">
+
+<link rel="stylesheet" type="text/css" href="./main_files/style.css">
+<script language="javascript" src="./main_files/admin.js"></script>
+<script language="javascript" src="./main_files/script.js"></script><style type="text/css">object, embed {display:none}</style>
+<script language="javascript" src="./main_files/flash.js"></script>
+<script language="javascript" src="./main_files/url.js"></script>
+<script type="text/javascript" src="./main_files/noticeLayer.js"></script>
+<style type="text/css" title="currentStyle" media="screen">
+	@import "script/noticeLayer.css";
+</style>
+
+<link rel="stylesheet" href="./main_files/navbar.css">
+
+<link rel="stylesheet" href="./main_files/DB_tab9.css" type="text/css">
+<script type="text/javascript" src="./main_files/jquery-1.7.1.min.js"></script><!--페이지에 한번만 호출-->
+<script type="text/javascript" src="./main_files/jquery.DB_tabSlideRollWide.min.js"></script>
+
+
+
+
+<script type="text/javascript"> 
+$(document).ready(function(){
+
+	// Requried: Navigation bar drop-down
+	$("nav ul li").hover(function() {
+		$(this).addClass("active");
+		$(this).find("ul").show().animate({opacity: 1}, 400);
+		},function() {
+		$(this).find("ul").hide().animate({opacity: 0}, 200);
+		$(this).removeClass("active");
+	});
+	
+	// Requried: Addtional styling elements
+	$('nav ul li ul li:first-child').prepend('<li class="arrow"></li>');
+	$('nav ul li:first-child').addClass('first');
+	$('nav ul li:last-child').addClass('last');
+	$('nav ul li ul').parent().append('<span class="dropdown"></span>').addClass('drop');
+
+});
+</script>
+
+<!-- 메인이미지 마우스오버 제이쿼리  -->
+
+<script src="./main_files/jquery.slickhover.js" type="text/javascript"></script>
+<script type="text/javascript">
+$(window).load(function(){
+
+  $(".slickHoverZoom").slickhover();
+  $(".slickHoverVideo").slickhover({icon:"view/video-white.png"});
+  $(".slickHoverPicture").slickhover({icon:"view/picture-white.png"});
+  $(".slickHoverPlus").slickhover({icon:"view/plus-white.png"});
+  $(".slickHoverPlusWhite").slickhover({icon:"view/plus-black.png", color:"#fff"});
+  $(".slickHoverPlusBlue").slickhover({icon:"view/plus-white.png", color:"#003"});
+  $(".slickHoverVideoAnimate").slickhover({icon:"view/video-white.png", animateIn:true});
+  
+});
+</script>
+<!-- 메인이미지 마우스오버 제이쿼리  -->
+
+
+</head>
+
+<body bgcolor="#ffffff" leftmargin="0" topmargin="0" background="./main_files/back.gif" style="background-repeat: repeat-x">
+<center>
+<script language="JavaScript">
+<!--
+//로그인 체크
+function mypageLoginChek()
+{
+							//비회원
+	alert("회원 메뉴입니다.\n\n로그인 해 주십시오.");
+    location.href="login.php";
+}
+//-->
+</script>
+
+
+	<table width="1000" border="0" cellspacing="0" cellpadding="0">
+	  <tbody><tr>
+		<td width="280" height="100"><a href="javascript:menu(0);" onfocus="blur();"><img src="./main_files/logo.gif" border="0"></a></td>
+	    <td align="right">
+			<table border="0" cellspacing="0" cellpadding="0">
+			  <tbody><tr>
+				<td height="30" align="right" class="topmenu" style="padding-right:50px;">
+				<a href="javascript:menu(0);" onfocus="blur();">HOME</a>
+				&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;
+				<a href="javascript:menu(12);" onfocus="blur();">CONTACT US</a>
+				&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;
+				<a href="javascript:menu(101);" onfocus="blur();">ADMIN</a>
+				</td>
+			  </tr>
+			</tbody></table>
+		</td>
+	  </tr>
+	</tbody></table>
+
+	<table width="100%" border="0" cellspacing="0" cellpadding="0">
+	  <tbody><tr>
+	    <td height="50" bgcolor="#000000" align="center">
+		
+		
+		<table width="1000" border="0" cellspacing="0" cellpadding="0">
+		  <tbody><tr>
+			<td>		
+                                                		
+				<div class="wrapper">
+				
+					<!-- BEGIN Dark navigation bar -->
+					<nav class="blue">
+						<ul class="clear">
+							<li class="first"><a href="javascript:menu(0)">HOME</a>
+							</li>
+							<li class="drop"><a href="javascript:menu(11)">회사소개</a>
+								<ul style="display: none; opacity: 1;">
+									<li class="first"><a href="javascript:menu(11)">인사말</a></li>
+									<li class="last"><a href="javascript:menu(12)">찾아오시는 길</a></li>
+								</ul>
+							<span class="dropdown"></span></li>
+							<li class="drop"><a href="javascript:menu(21);">사업소개</a>
+								<ul style="display: none; opacity: 0;">
+									<li class="first last"><a href="javascript:menu(21)">사업소개</a></li>
+								</ul>
+							<span class="dropdown"></span></li>
+							<li class="drop"><a href="javascript:menu(31);">제품소개</a>
+								<ul style="display: none; opacity: 0;">
+									<li class="first"><a href="javascript:menu(31);">카테고리01</a></li>
+									<li><a href="javascript:menu(32);">카테고리02</a></li>
+									<li><a href="javascript:menu(33);">카테고리03</a></li>
+									<li class="last"><a href="javascript:menu(34);">카테고리03</a></li>
+								</ul>
+							<span class="dropdown"></span></li>
+							<li class="drop"><a href="javascript:menu(41);">온라인문의</a>
+								<ul>
+									<li class="first last"><a href="javascript:menu(41);">온라인문의</a></li>
+								</ul>
+							<span class="dropdown"></span></li>
+							<li class="last drop"><a href="javascript:menu(51);">고객센터</a>
+								<ul>
+									<li class="first"><a href="javascript:menu(51);">공지사항</a></li>
+									<li class="last"><a href="javascript:menu(52);">문의게시판</a></li>
+								</ul>
+							<span class="dropdown"></span></li>
+						</ul>
+					</nav>
+					<!-- END Dark navigation bar -->
+					
+				</div>
+	
+				</td>
+				</tr>
+			</tbody></table>
+		
+		
+		</td>
+	    </tr>
+	</tbody></table>
+
+
+
+<!--메인이미지-->
+<div class="DB_tab9">
+	<div class="DB_mask">
+		<ul class="DB_img" style="position: relative; left: -317px;">
+			<li style="position: absolute; left: 2000px; opacity: 1;"><img src="./main_files/main_img01.jpg" alt=""></li>
+			<li style="position: absolute; left: -2000px; opacity: 1;"><img src="./main_files/main_img02.jpg" alt=""></li>
+			<li style="position: absolute; left: 0px; opacity: 1;"><img src="./main_files/main_img03.jpg" alt=""></li>
+		</ul>
+	</div>
+	<div class="DB_dir_wrap">
+		<div class="DB_dir">
+			<span class="DB_prev"><img src="./main_files/prevBtn_off.png" alt=""></span>
+			<span class="DB_next"><img src="./main_files/nextBtn_off.png" alt=""></span>
+		</div>
+	</div>
+	<div class="DB_menu">
+		<li><img src="./main_files/menu_off.png" alt=""></li>
+		<li><img src="./main_files/menu_off.png" alt=""></li>
+		<li><img src="./main_files/menu_on.png" alt=""></li>
+	</div>
+		
+</div>
+<script type="text/javascript">
+	$('.DB_tab9').DB_tabSlideRollWide({
+			key:'b28551',                         //라이센스키
+			imgWidth:2000,                  //이미지가로사이즈
+			moveSpeed:800,                  //이동속도(밀리초)
+			autoPlayTime:4000,              //자동롤링시간(밀리초)
+			opacity:1                       //가장자리이미지 알파값조정(0~1)
+	})
+</script>
+<!--메인이미지-->
+
+
+<center>
+
+
+<div style="padding-top:80px;"></div>
+<div style="font-size:40px; font-weight:400; padding-bottom:30px; font-family: verdana,sans-serif,NanumGothic,나눔고딕,돋움, 돋움체;"><b>GANADA</b> COMPANY</div>
+<div style="font-size:16px; padding-bottom:50px;">
+고객에 대해 가장 많은 것을 알고 있으며 고객에 대해<br>
+ 가장 치열하게 고민하는 기업, <br>
+가나다기업은 고객의 행복을 위해 미래를 준비하는 기업입니다.</div>
+
+	<table border="0" cellpadding="0" cellspacing="0">
+	  <tbody><tr> 
+		<td valign="top" align="center">
+			<a href="javascript:menu(11);" class="m101">
+				<div class="m01"><img src="./main_files/m01.png" border="0"></div>
+				<div class="m02">COMPANY INFO</div>
+				<div class="m03">가나다기업은 최상의<br>서비스를 제공합니다.</div>
+			</a>
+		</td>
+		<td class="m10"></td>
+		<td valign="top" align="center">
+			<a href="javascript:menu(21);" class="m101">
+				<div class="m01"><img src="./main_files/m02.png" border="0"></div>
+				<div class="m02">BUSINESS INFO</div>
+				<div class="m03">가나다기업의 다양한<br>제품을 소개합니다.</div>
+			</a>
+		</td>
+		<td class="m10"></td>
+		<td valign="top" align="center" class="m101">
+				<div class="m01"><img src="./main_files/m03.png" border="0"></div>
+				<div class="m02">02-1230-1234</div>
+				<div class="m03">상담시간 09:00 ~ 18:00(점심 12:00~13:00)<br>(토요일, 공휴일 휴무)</div>
+		</td>
+	  </tr> 
+	</tbody></table>
+
+
+
+
+
+
+
+
+
+
+
+<div style="padding-top:90px;"></div>
+
+
+<table width="100%" border="0" cellspacing="0" cellpadding="0">
+  <tbody><tr>
+	<td height="380" style="background-image:url(&#39;image/main/main02.jpg&#39;); background-repeat:no-repeat; background-position:50% 50%;" align="center" valign="top">
+		<table width="1000" border="0" cellspacing="0" cellpadding="0">
+		  <tbody><tr>
+			<td align="center" valign="top" style="padding:60px 0 0 0;">
+
+		<div style="font-size:40px; color: #fff; font-weight:400; padding-bottom:30px; font-family: verdana,sans-serif,NanumGothic,나눔고딕,돋움, 돋움체;"><b>ONLINE</b> ESTIMATION</div>
+		<div style="font-size:16px; color: #fff; line-height:30px;">
+			클라우드 플랫폼, 고성능 컴퓨팅 및 각종 대용량 발송 상품과<br>
+			관련하여 제품 문의 및 협력사 제휴 등<br>
+			다양한 문의사항을 요청하시면<br>
+			친절히 상담해 드리겠습니다.<br>
+			<div style="padding-top:50px;"></div>
+			<a href="javascript:menu(41);" class="more02" style="line-height:40px;">MORE +</a>
+
+		</div>
+			
+			</td>
+		  </tr>
+		</tbody></table>
+	</td>
+  </tr>
+</tbody></table>
+
+
+<div style="padding-top:80px;"></div>
+<div style="font-size:40px; font-weight:400; padding-bottom:20px; font-family: verdana,sans-serif,NanumGothic,나눔고딕,돋움, 돋움체;"><b>BEST</b> PRODUCTS</div>
+<div style="font-size:16px; padding-bottom:40px;">가나다컴퍼니의 추천제품입니다</div>
+
+
+<link rel="stylesheet" href="./main_files/DB_banner4.css" type="text/css">
+<script type="text/javascript" src="./main_files/jquery.DB_slideStepBanner.min.js"></script>
+
+					
+
+
+<div class="DB_banner4">
+	<div class="DB_mask">
+		<ul class="DB_imgSet">
+					
+					<!-- 움직이는 이미지 -->
+
+
+	
+                <li style="position: absolute; left: 1750px;"><a href="http://skin.leeshosting.com/H42/03.php?type=view&amp;idx=136&amp;data=aWR4PTEzNiZwYWdlY250PSZsZXR0ZXJfbm89Jm9mZnNldD0mc2VhcmNoPSZzZWFyY2hzdHJpbmc9JnByZXNlbnRfbnVtPQ==||&amp;sub=4&amp;gubun=" onfocus="blur();"><div class="slickhoverWrapper" style="position: relative; max-width:100%; overflow:hidden; display:inline-block; background:url(view/plus-white.png) center center no-repeat #003;"><img src="./main_files/03.jpg" width="220" height="220" border="0" class="borderImage slickHoverPlusBlue"></div><p>0403 제품SAM...</p></a></li>
+	
+                <li style="position: absolute; left: 2000px;"><a href="http://skin.leeshosting.com/H42/03.php?type=view&amp;idx=131&amp;data=aWR4PTEzMSZwYWdlY250PSZsZXR0ZXJfbm89Jm9mZnNldD0mc2VhcmNoPSZzZWFyY2hzdHJpbmc9JnByZXNlbnRfbnVtPQ==||&amp;sub=4&amp;gubun=" onfocus="blur();"><div class="slickhoverWrapper" style="position: relative; max-width:100%; overflow:hidden; display:inline-block; background:url(view/plus-white.png) center center no-repeat #003;"><img src="./main_files/08.jpg" width="220" height="220" border="0" class="borderImage slickHoverPlusBlue"></div><p>0408 제품SAM...</p></a></li>
+	
+                <li style="position: absolute; left: -250px;"><a href="http://skin.leeshosting.com/H42/03.php?type=view&amp;idx=121&amp;data=aWR4PTEyMSZwYWdlY250PSZsZXR0ZXJfbm89Jm9mZnNldD0mc2VhcmNoPSZzZWFyY2hzdHJpbmc9JnByZXNlbnRfbnVtPQ==||&amp;sub=3&amp;gubun=" onfocus="blur();"><div class="slickhoverWrapper" style="position: relative; max-width:100%; overflow:hidden; display:inline-block; background:url(view/plus-white.png) center center no-repeat #003;"><img src="./main_files/08.jpg" width="220" height="220" border="0" class="borderImage slickHoverPlusBlue"></div><p>0308 제품SAM...</p></a></li>
+	
+                <li style="position: absolute; left: 0px;"><a href="http://skin.leeshosting.com/H42/03.php?type=view&amp;idx=118&amp;data=aWR4PTExOCZwYWdlY250PSZsZXR0ZXJfbm89Jm9mZnNldD0mc2VhcmNoPSZzZWFyY2hzdHJpbmc9JnByZXNlbnRfbnVtPQ==||&amp;sub=2&amp;gubun=" onfocus="blur();"><div class="slickhoverWrapper" style="position: relative; max-width:100%; overflow:hidden; display:inline-block; background:url(view/plus-white.png) center center no-repeat #003;"><img src="./main_files/01.jpg" width="220" height="220" border="0" class="borderImage slickHoverPlusBlue"></div><p>0201 제품SAM...</p></a></li>
+	
+                <li style="position: absolute; left: 250px;"><a href="http://skin.leeshosting.com/H42/03.php?type=view&amp;idx=117&amp;data=aWR4PTExNyZwYWdlY250PSZsZXR0ZXJfbm89Jm9mZnNldD0mc2VhcmNoPSZzZWFyY2hzdHJpbmc9JnByZXNlbnRfbnVtPQ==||&amp;sub=2&amp;gubun=" onfocus="blur();"><div class="slickhoverWrapper" style="position: relative; max-width:100%; overflow:hidden; display:inline-block; background:url(view/plus-white.png) center center no-repeat #003;"><img src="./main_files/02.jpg" width="220" height="220" border="0" class="borderImage slickHoverPlusBlue"></div><p>0202 제품SAM...</p></a></li>
+	
+                <li style="position: absolute; left: 500px;"><a href="http://skin.leeshosting.com/H42/03.php?type=view&amp;idx=106&amp;data=aWR4PTEwNiZwYWdlY250PSZsZXR0ZXJfbm89Jm9mZnNldD0mc2VhcmNoPSZzZWFyY2hzdHJpbmc9JnByZXNlbnRfbnVtPQ==||&amp;sub=1&amp;gubun=" onfocus="blur();"><div class="slickhoverWrapper" style="position: relative; max-width:100%; overflow:hidden; display:inline-block; background:url(view/plus-white.png) center center no-repeat #003;"><img src="./main_files/03.jpg" width="220" height="220" border="0" class="borderImage slickHoverPlusBlue"></div><p>0103 제품SAM...</p></a></li>
+	
+                <li style="position: absolute; left: 750px;"><a href="http://skin.leeshosting.com/H42/03.php?type=view&amp;idx=105&amp;data=aWR4PTEwNSZwYWdlY250PSZsZXR0ZXJfbm89Jm9mZnNldD0mc2VhcmNoPSZzZWFyY2hzdHJpbmc9JnByZXNlbnRfbnVtPQ==||&amp;sub=1&amp;gubun=" onfocus="blur();"><div class="slickhoverWrapper" style="position: relative; max-width:100%; overflow:hidden; display:inline-block; background:url(view/plus-white.png) center center no-repeat #003;"><img src="./main_files/04.jpg" width="220" height="220" border="0" class="borderImage slickHoverPlusBlue"></div><p>0104 제품SAM...</p></a></li>
+	
+                <li style="position: absolute; left: 1000px;"><a href="http://skin.leeshosting.com/H42/03.php?type=view&amp;idx=36&amp;data=aWR4PTM2JnBhZ2VjbnQ9JmxldHRlcl9ubz0mb2Zmc2V0PSZzZWFyY2g9JnNlYXJjaHN0cmluZz0mcHJlc2VudF9udW09||&amp;sub=4&amp;gubun=" onfocus="blur();"><div class="slickhoverWrapper" style="position: relative; max-width:100%; overflow:hidden; display:inline-block; background:url(view/plus-white.png) center center no-repeat #003;"><img src="./main_files/b_img31374487380.jpg" width="220" height="220" border="0" class="borderImage slickHoverPlusBlue"></div><p>제품명0401</p></a></li>
+	
+                <li style="position: absolute; left: 1250px;"><a href="http://skin.leeshosting.com/H42/03.php?type=view&amp;idx=31&amp;data=aWR4PTMxJnBhZ2VjbnQ9JmxldHRlcl9ubz0mb2Zmc2V0PSZzZWFyY2g9JnNlYXJjaHN0cmluZz0mcHJlc2VudF9udW09||&amp;sub=4&amp;gubun=" onfocus="blur();"><div class="slickhoverWrapper" style="position: relative; max-width:100%; overflow:hidden; display:inline-block; background:url(view/plus-white.png) center center no-repeat #003;"><img src="./main_files/b_img31374487352.jpg" width="220" height="220" border="0" class="borderImage slickHoverPlusBlue"></div><p>제품명0402</p></a></li>
+	
+                <li style="position: absolute; left: 1500px;"><a href="http://skin.leeshosting.com/H42/03.php?type=view&amp;idx=21&amp;data=aWR4PTIxJnBhZ2VjbnQ9JmxldHRlcl9ubz0mb2Zmc2V0PSZzZWFyY2g9JnNlYXJjaHN0cmluZz0mcHJlc2VudF9udW09||&amp;sub=3&amp;gubun=" onfocus="blur();"><div class="slickhoverWrapper" style="position: relative; max-width:100%; overflow:hidden; display:inline-block; background:url(view/plus-white.png) center center no-repeat #003;"><img src="./main_files/b_img31374487352.jpg" width="220" height="220" border="0" class="borderImage slickHoverPlusBlue"></div><p>제품명0302</p></a></li>
+	
+		
+		</ul>
+	</div>
+</div>
+
+
+					
+<script type="text/javascript">
+		$('.DB_banner4').DB_slideStepBanner({
+			key:'b28551',        //라이센스키	
+			moveSpeed:300,                  //이동속도
+			dir:'next',                     //진행방향('next','prev')
+			autoRollingTime:3000            //자동롤링시간(밀리초)
+		})
+</script>
+			
+<div style="padding-top:5px;"></div>
+
+
+
+	
+  
+
+
+<table width="100%" border="0" cellspacing="0" cellpadding="0">
+
+  <tbody><tr>
+	<td height="50"></td>
+  </tr>
+  <tr>
+	<td height="1" bgcolor="dddddd"></td>
+  </tr>
+
+  <tr>
+	<td align="center" bgcolor="ffffff">
+		<table width="1000" border="0" cellspacing="0" cellpadding="0">
+		  <tbody><tr>
+		    <td style="padding:25px 30px;">
+<font class="copy02">
+
+가나다주식회사&nbsp;&nbsp;&nbsp;/&nbsp;&nbsp;&nbsp;주소 : 서울시 구로구 도림로 55길 123, 5층(구로동)&nbsp;&nbsp;&nbsp;/&nbsp;&nbsp;&nbsp;사업자등록번호 : 123-00-55555&nbsp;&nbsp;&nbsp;/&nbsp;&nbsp;&nbsp;대표 : 홍길동<br>
+전화번호 : 02-1234-5678&nbsp;&nbsp;&nbsp;/&nbsp;&nbsp;&nbsp;팩스번호 : 02-123-4567&nbsp;&nbsp;&nbsp;/&nbsp;&nbsp;&nbsp;Email : leeshosting@naver.com<br>
+COPYRIGHT(C) COMPANY NAME.CO.,LTD. ALL RIGHTS RESERVED. 
+</font>
+			</td>
+		  </tr>
+		  </tbody></table>
+	</td>
+  </tr>
+</tbody></table>
+
+
+</center>
+</center></body></html>

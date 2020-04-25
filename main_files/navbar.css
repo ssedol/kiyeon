@@ -1,0 +1,40 @@
+@charset "euc-kr";
+
+@import url(http://fonts.googleapis.com/earlyaccess/nanumgothic.css);
+
+html, body { border:0; margin:0; padding:0; }
+
+.wrapper { margin:0px auto; }
+
+
+
+/***** BEGIN Blue Menu Styles *****/
+.clear:after { content: "."; display: block; height: 0; clear: both; visibility: hidden;}
+html[xmlns] .clear { display: block;}
+* html .clear { height: 1%;}
+
+nav.blue {border-top: 0px solid #272b76; border-bottom: 0px solid #15185a; border-radius: 0px; }
+nav.blue ul {margin: 0px; padding: 0px; border-left: 0px solid #272b76;}
+
+
+/* Top level */
+nav.blue li {line-height:40px; width:165px; list-style: none; float: left; position: relative; background:url('../top00r.gif') no-repeat;}
+nav.blue li.first, nav li.first a {border-top-left-radius: 0px; border-bottom-left-radius: 0px; -moz-border-top-left-radius: 0px; -moz-border-bottom-left-radius: 0px;background:none;}
+nav.blue li.last, nav li.last a {border-top-right-radius: 0px; border-bottom-right-radius: 0px; -moz-border-top-right-radius: 0px; -moz-border-bottom-right-radius: 0px; border-right: 0px solid #dddddd;}
+nav.blue li.drop a {padding-right: 0px;}
+nav.blue li a {text-align:center; display: block; padding: 10px 0px 10px 0; text-decoration: none;  background-repeat: repeat-x; font-size: 17px; font-weight:600; color: #FFF;  }
+nav.blue li a {background-position: 0px 0px;}
+nav.blue li a:hover, nav li.active a {color: #339900; background: #FFFFFF; background-position: 0px -36px;}
+nav.blue li a:active {background-position: 0px -72px;}
+nav.blue .dropdown {display: block; float: right;  height: 0px; margin: 0px 15px 0px 50px;}
+
+/* Drop down */
+nav.blue li ul {opacity: 0.3; position: absolute; top: 60px; left: -1px; padding: 0px; border-radius: 0px; -moz-border-radius: 3px; background: #ffffff; display: none;z-index: 100; border: 1px solid #cccccc;}
+nav.blue li ul li {line-height:30px;border-right: 0px; float: none!important; border-bottom: 1px solid #cccccc;  width: 165px;background:none;}
+nav.blue li ul li:last-child { border-bottom: 0px;}
+nav.blue li ul li a {border-left: 0px; border-top: 0px; padding: 8px 0px; opacity: 1.0; font-size: 13px;  font-weight:600;  color: #333333;}
+nav.blue li ul li a:hover { background:#339900 ;color: #ffffff; opacity: 1.0; font-weight:600;}
+
+nav.blue li ul li.arrow {background: url(../img/arrowtop.png) top left no-repeat; border-bottom: 0px; height: 0px; margin-top: -10px; margin-bottom: 10px;}
+
+/***** END Blue Menu Styles *****/
