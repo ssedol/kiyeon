@@ -1,0 +1,437 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<!-- saved from url=(0044)http://skin.leeshosting.com/H42/05.php?sub=1 -->
+<html xmlns="http://www.w3.org/1999/xhtml"><head><meta http-equiv="Content-Type" content="text/html; charset=EUC-KR">
+<title>상단제목</title>
+
+<meta http-equiv="imagetoolbar" content="no">
+<meta http-equiv="X-UA-Compatible" content="IE=Edge">
+
+<link rel="stylesheet" type="text/css" href="./main_files/style.css">
+<script language="javascript" src="./main_files/admin.js"></script>
+<script language="javascript" src="./main_files/script.js"></script><style type="text/css">object, embed {display:none}</style>
+<script language="javascript" src="./main_files/flash.js"></script>
+<script language="javascript" src="./main_files/url.js"></script>
+<script type="text/javascript" src="./main_files/noticeLayer.js"></script>
+<style type="text/css" title="currentStyle" media="screen">
+	@import "script/noticeLayer.css"; 
+</style>
+
+<link rel="stylesheet" href="./main_files/navbar.css">
+
+<link rel="stylesheet" href="./main_files/DB_tab9.css" type="text/css">
+<script type="text/javascript" src="./main_files/jquery-1.7.1.min.js"></script><!--페이지에 한번만 호출-->
+<script type="text/javascript" src="./main_files/jquery.DB_tabSlideRollWide.min.js"></script>
+
+
+
+
+<script type="text/javascript"> 
+$(document).ready(function(){
+
+	// Requried: Navigation bar drop-down
+	$("nav ul li").hover(function() {
+		$(this).addClass("active");
+		$(this).find("ul").show().animate({opacity: 1}, 400);
+		},function() {
+		$(this).find("ul").hide().animate({opacity: 0}, 200);
+		$(this).removeClass("active");
+	});
+	
+	// Requried: Addtional styling elements
+	$('nav ul li ul li:first-child').prepend('<li class="arrow"></li>');
+	$('nav ul li:first-child').addClass('first');
+	$('nav ul li:last-child').addClass('last');
+	$('nav ul li ul').parent().append('<span class="dropdown"></span>').addClass('drop');
+
+});
+</script>
+
+<!-- 메인이미지 마우스오버 제이쿼리  -->
+
+<script src="./main_files/jquery.slickhover.js" type="text/javascript"></script>
+<script type="text/javascript">
+$(window).load(function(){
+
+  $(".slickHoverZoom").slickhover();
+  $(".slickHoverVideo").slickhover({icon:"view/video-white.png"});
+  $(".slickHoverPicture").slickhover({icon:"view/picture-white.png"});
+  $(".slickHoverPlus").slickhover({icon:"view/plus-white.png"});
+  $(".slickHoverPlusWhite").slickhover({icon:"view/plus-black.png", color:"#fff"});
+  $(".slickHoverPlusBlue").slickhover({icon:"view/plus-white.png", color:"#003"});
+  $(".slickHoverVideoAnimate").slickhover({icon:"view/video-white.png", animateIn:true});
+  
+});
+</script>
+<!-- 메인이미지 마우스오버 제이쿼리  -->
+
+
+</head>
+
+<body bgcolor="#ffffff" leftmargin="0" topmargin="0" background="./main_files/back.gif" style="background-repeat: repeat-x">
+<center>
+<script language="JavaScript">
+<!--
+//로그인 체크
+function mypageLoginChek()
+{
+							//비회원
+	alert("회원 메뉴입니다.\n\n로그인 해 주십시오.");
+    location.href="login.php";
+}
+//-->
+</script>
+
+
+	<table width="1000" border="0" cellspacing="0" cellpadding="0">
+	  <tbody><tr>
+		<td width="280" height="100"><a href="javascript:menu(0);" onfocus="blur();"><img src="./main_files/logo.gif" border="0"></a></td>
+	    <td align="right">
+			<table border="0" cellspacing="0" cellpadding="0">
+			  <tbody><tr>
+				<td height="30" align="right" class="topmenu" style="padding-right:50px;">
+				<a href="javascript:menu(0);" onfocus="blur();">HOME</a>
+				&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;
+				<a href="javascript:menu(12);" onfocus="blur();">CONTACT US</a>
+				&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;
+				<a href="javascript:menu(101);" onfocus="blur();">ADMIN</a>
+				</td>
+			  </tr>
+			</tbody></table>
+		</td>
+	  </tr>
+	</tbody></table>
+
+	<table width="100%" border="0" cellspacing="0" cellpadding="0">
+	  <tbody><tr>
+	    <td height="50" bgcolor="#000000" align="center">
+		
+		
+		<table width="1000" border="0" cellspacing="0" cellpadding="0">
+		  <tbody><tr>
+			<td>		
+                                                		
+				<div class="wrapper">
+				
+					<!-- BEGIN Dark navigation bar -->
+					<nav class="blue">
+						<ul class="clear">
+							<li class="first"><a href="javascript:menu(0)">HOME</a>
+							</li>
+							<li class="drop"><a href="javascript:menu(11)">회사소개</a>
+								<ul>
+									<li class="first"><a href="javascript:menu(11)">인사말</a></li>
+									<li class="last"><a href="javascript:menu(12)">찾아오시는 길</a></li>
+								</ul>
+							<span class="dropdown"></span></li>
+							<li class="drop"><a href="javascript:menu(21);">사업소개</a>
+								<ul>
+									<li class="first last"><a href="javascript:menu(21)">사업소개</a></li>
+								</ul>
+							<span class="dropdown"></span></li>
+							<li class="drop"><a href="javascript:menu(31);">제품소개</a>
+								<ul style="display: none; opacity: 1;">
+									<li class="first"><a href="javascript:menu(31);">카테고리01</a></li>
+									<li><a href="javascript:menu(32);">카테고리02</a></li>
+									<li><a href="javascript:menu(33);">카테고리03</a></li>
+									<li class="last"><a href="javascript:menu(34);">카테고리03</a></li>
+								</ul>
+							<span class="dropdown"></span></li>
+							<li class="drop"><a href="javascript:menu(41);">온라인문의</a>
+								<ul>
+									<li class="first last"><a href="javascript:menu(41);">온라인문의</a></li>
+								</ul>
+							<span class="dropdown"></span></li>
+							<li class="last drop"><a href="javascript:menu(51);">고객센터</a>
+								<ul style="display: none; opacity: 0;">
+									<li class="first"><a href="javascript:menu(51);">공지사항</a></li>
+									<li class="last"><a href="javascript:menu(52);">문의게시판</a></li>
+								</ul>
+							<span class="dropdown"></span></li>
+						</ul>
+					</nav>
+					<!-- END Dark navigation bar -->
+					
+				</div>
+	
+				</td>
+				</tr>
+			</tbody></table>
+		
+		
+		</td>
+	    </tr>
+	</tbody></table>
+<table width="100%" border="0" cellpadding="0" cellspacing="0" bgcolor="ffffff">
+  <tbody><tr>
+	<td height="1" bgcolor="#dddddd"></td>
+  </tr>
+  <tr>
+    <td height="20"></td>
+  </tr>
+</tbody></table>
+
+
+
+
+	<ul class="sub_menu">
+		<li class="over" style="width:49%; "><a href="./board.htm">공지사항</a></li>
+		<li class="" style="width:49%; "><a href="./board2.htm">문의게시판</a></li>
+	</ul>
+
+
+
+
+<table width="950" border="0" cellpadding="0" cellspacing="0">
+  <tbody><tr valign="top"> 
+    <td height="400"><table width="950" border="0" cellspacing="0" cellpadding="0">
+		<tbody><tr>
+			<td class="title">공지사항</td>
+		</tr>
+        <tr>
+          <td style="padding : 0;">
+            <table width="950" border="0" cellspacing="0" cellpadding="0">
+                <tbody><tr>
+                <td>
+				<!-- main -->
+		  				<script language="JavaScript">
+<!--
+//검색 전송
+function searchSendit()
+{
+	var form=document.searchForm;
+
+	if(form.searchstring.value==""){
+		alert("검색 내용을 입력해 주십시오.");
+		form.searchstring.focus();
+		return false;
+	}else{
+		return true;
+	}
+}
+
+
+//err message
+function writeLoginErr(){
+	alert("쓰기 권한이 없습니다.\n\n로그인 해주십시오.");
+	location.href="member_login.php?reUrl=/H42/05.php?sub=1";
+}
+function writeErr(){
+	alert("쓰기 권한이 없습니다.");
+}
+function readLoginErr(){
+	alert("읽기 권한이 없습니다.\n\n로그인 해주십시오.");
+	location.href="member_login.php?reUrl=/H42/05.php?sub=1";
+}
+function readErr(){
+	alert("읽기 권한이 없습니다.");
+}
+//-->
+</script>
+
+
+	  <table width="950" border="0" cellspacing="0" cellpadding="0" align="center">
+		<tbody><tr> 
+		  <td> 
+			<table width="100%" border="0" cellspacing="0" cellpadding="0">
+			  <tbody><tr> 
+				<td colspan="5" align="right">전체 [ <font color="#cc0000">8</font> ]개&nbsp;&nbsp;&nbsp;
+				</td>
+			  </tr>
+			  <tr> 
+				<td height="1" colspan="5" bgcolor="dddddd"></td>
+			  </tr>
+			  <tr bgcolor="f8f8f8"> 
+				<td height="40" width="50" align="center" class="bsfont">No</td>
+				<td align="center" class="bsfont">제목</td>
+				<td align="center" width="100" class="bsfont">성명</td>
+				<td align="center" width="90" class="bsfont">날짜</td>
+				<td align="center" width="40" class="bsfont">파일</td>
+			  </tr>
+			  <tr> 
+				<td height="1" colspan="5" bgcolor="dddddd"></td>
+			  </tr>
+				
+
+<!----------------- 읽기권한 --------------------->
+			  <tr valign="middle" bgcolor="ffffff" style="cursor:pointer;" onmouseover="this.style.backgroundColor=&#39;#f8f8f8&#39;" onmouseout="this.style.backgroundColor=&#39;&#39;" onclick="location.href=&#39;?type=view&amp;idx=61&amp;search=&amp;searchstring=&amp;data=aWR4PTYxJnBhZ2VjbnQ9MCZsZXR0ZXJfbm89OCZvZmZzZXQ9MCZzZWFyY2g9JnNlYXJjaHN0cmluZz0mcHJlc2VudF9udW09OA==||&amp;boardIndex=1&amp;sub=1&#39;">
+				<td height="40" align="center">8</td>
+				<td>&nbsp; 고품격 초저가 홈페이지를 리스디자인에서 제공합니다...  </td>
+				<td align="center">관리자</td>
+				<td align="center">2017-09-21</td>
+				<td align="center">&nbsp;</td>
+			  </tr>
+			  <tr> 
+				<td height="1" colspan="5" bgcolor="dddddd"></td>
+			  </tr>
+<!----------------- 읽기권한 --------------------->
+			  <tr valign="middle" bgcolor="ffffff" style="cursor:pointer;" onmouseover="this.style.backgroundColor=&#39;#f8f8f8&#39;" onmouseout="this.style.backgroundColor=&#39;&#39;" onclick="location.href=&#39;?type=view&amp;idx=60&amp;search=&amp;searchstring=&amp;data=aWR4PTYwJnBhZ2VjbnQ9MCZsZXR0ZXJfbm89OCZvZmZzZXQ9MCZzZWFyY2g9JnNlYXJjaHN0cmluZz0mcHJlc2VudF9udW09Nw==||&amp;boardIndex=1&amp;sub=1&#39;">
+				<td height="40" align="center">7</td>
+				<td>&nbsp; 고품격 초저가 홈페이지를 리스디자인에서 제공합니다...  </td>
+				<td align="center">관리자</td>
+				<td align="center">2017-09-21</td>
+				<td align="center">&nbsp;</td>
+			  </tr>
+			  <tr> 
+				<td height="1" colspan="5" bgcolor="dddddd"></td>
+			  </tr>
+<!----------------- 읽기권한 --------------------->
+			  <tr valign="middle" bgcolor="ffffff" style="cursor:pointer;" onmouseover="this.style.backgroundColor=&#39;#f8f8f8&#39;" onmouseout="this.style.backgroundColor=&#39;&#39;" onclick="location.href=&#39;?type=view&amp;idx=50&amp;search=&amp;searchstring=&amp;data=aWR4PTUwJnBhZ2VjbnQ9MCZsZXR0ZXJfbm89OCZvZmZzZXQ9MCZzZWFyY2g9JnNlYXJjaHN0cmluZz0mcHJlc2VudF9udW09Ng==||&amp;boardIndex=1&amp;sub=1&#39;">
+				<td height="40" align="center">6</td>
+				<td>&nbsp; 고품격 초저가 홈페이지를 리스디자인에서 제공합니다...  </td>
+				<td align="center">관리자</td>
+				<td align="center">0000-00-00</td>
+				<td align="center">&nbsp;</td>
+			  </tr>
+			  <tr> 
+				<td height="1" colspan="5" bgcolor="dddddd"></td>
+			  </tr>
+<!----------------- 읽기권한 --------------------->
+			  <tr valign="middle" bgcolor="ffffff" style="cursor:pointer;" onmouseover="this.style.backgroundColor=&#39;#f8f8f8&#39;" onmouseout="this.style.backgroundColor=&#39;&#39;" onclick="location.href=&#39;?type=view&amp;idx=32&amp;search=&amp;searchstring=&amp;data=aWR4PTMyJnBhZ2VjbnQ9MCZsZXR0ZXJfbm89OCZvZmZzZXQ9MCZzZWFyY2g9JnNlYXJjaHN0cmluZz0mcHJlc2VudF9udW09NQ==||&amp;boardIndex=1&amp;sub=1&#39;">
+				<td height="40" align="center">5</td>
+				<td>&nbsp; 고품격 초저가 홈페이지를 리스디자인에서 제공합니다...  </td>
+				<td align="center">관리자</td>
+				<td align="center">0000-00-00</td>
+				<td align="center">&nbsp;</td>
+			  </tr>
+			  <tr> 
+				<td height="1" colspan="5" bgcolor="dddddd"></td>
+			  </tr>
+<!----------------- 읽기권한 --------------------->
+			  <tr valign="middle" bgcolor="ffffff" style="cursor:pointer;" onmouseover="this.style.backgroundColor=&#39;#f8f8f8&#39;" onmouseout="this.style.backgroundColor=&#39;&#39;" onclick="location.href=&#39;?type=view&amp;idx=31&amp;search=&amp;searchstring=&amp;data=aWR4PTMxJnBhZ2VjbnQ9MCZsZXR0ZXJfbm89OCZvZmZzZXQ9MCZzZWFyY2g9JnNlYXJjaHN0cmluZz0mcHJlc2VudF9udW09NA==||&amp;boardIndex=1&amp;sub=1&#39;">
+				<td height="40" align="center">4</td>
+				<td>&nbsp; 고품격 초저가 홈페이지를 리스디자인에서 제공합니다...  </td>
+				<td align="center">관리자</td>
+				<td align="center">0000-00-00</td>
+				<td align="center">&nbsp;</td>
+			  </tr>
+			  <tr> 
+				<td height="1" colspan="5" bgcolor="dddddd"></td>
+			  </tr>
+<!----------------- 읽기권한 --------------------->
+			  <tr valign="middle" bgcolor="ffffff" style="cursor:pointer;" onmouseover="this.style.backgroundColor=&#39;#f8f8f8&#39;" onmouseout="this.style.backgroundColor=&#39;&#39;" onclick="location.href=&#39;?type=view&amp;idx=30&amp;search=&amp;searchstring=&amp;data=aWR4PTMwJnBhZ2VjbnQ9MCZsZXR0ZXJfbm89OCZvZmZzZXQ9MCZzZWFyY2g9JnNlYXJjaHN0cmluZz0mcHJlc2VudF9udW09Mw==||&amp;boardIndex=1&amp;sub=1&#39;">
+				<td height="40" align="center">3</td>
+				<td>&nbsp; 고품격 초저가 홈페이지를 리스디자인에서 제공합니다...  </td>
+				<td align="center">홍길동</td>
+				<td align="center">0000-00-00</td>
+				<td align="center">&nbsp;</td>
+			  </tr>
+			  <tr> 
+				<td height="1" colspan="5" bgcolor="dddddd"></td>
+			  </tr>
+<!----------------- 읽기권한 --------------------->
+			  <tr valign="middle" bgcolor="ffffff" style="cursor:pointer;" onmouseover="this.style.backgroundColor=&#39;#f8f8f8&#39;" onmouseout="this.style.backgroundColor=&#39;&#39;" onclick="location.href=&#39;?type=view&amp;idx=20&amp;search=&amp;searchstring=&amp;data=aWR4PTIwJnBhZ2VjbnQ9MCZsZXR0ZXJfbm89OCZvZmZzZXQ9MCZzZWFyY2g9JnNlYXJjaHN0cmluZz0mcHJlc2VudF9udW09Mg==||&amp;boardIndex=1&amp;sub=1&#39;">
+				<td height="40" align="center">2</td>
+				<td>&nbsp; 고품격 초저가 홈페이지를 리스디자인에서 제공합니다...  </td>
+				<td align="center">관리자</td>
+				<td align="center">0000-00-00</td>
+				<td align="center">&nbsp;</td>
+			  </tr>
+			  <tr> 
+				<td height="1" colspan="5" bgcolor="dddddd"></td>
+			  </tr>
+<!----------------- 읽기권한 --------------------->
+			  <tr valign="middle" bgcolor="ffffff" style="cursor:pointer;" onmouseover="this.style.backgroundColor=&#39;#f8f8f8&#39;" onmouseout="this.style.backgroundColor=&#39;&#39;" onclick="location.href=&#39;?type=view&amp;idx=19&amp;search=&amp;searchstring=&amp;data=aWR4PTE5JnBhZ2VjbnQ9MCZsZXR0ZXJfbm89OCZvZmZzZXQ9MCZzZWFyY2g9JnNlYXJjaHN0cmluZz0mcHJlc2VudF9udW09MQ==||&amp;boardIndex=1&amp;sub=1&#39;">
+				<td height="40" align="center">1</td>
+				<td>&nbsp; 고품격 초저가 홈페이지를 리스디자인에서 제공합니다...  </td>
+				<td align="center">관리자</td>
+				<td align="center">0000-00-00</td>
+				<td align="center">&nbsp;</td>
+			  </tr>
+			  <tr> 
+				<td height="1" colspan="5" bgcolor="dddddd"></td>
+			  </tr>
+<!-- 게시판 글목록 끝 -->
+			</tbody></table>
+		  </td>
+		</tr>
+		<tr> 
+		  <td height="60"> 
+
+			<table border="0" cellspacing="0" cellpadding="0" align="right">
+			  <tbody><tr> 
+				<td align="right"></td>
+				<td width="14"></td>
+			  </tr>
+			</tbody></table><br>
+
+
+
+
+			<table border="0" cellspacing="0" cellpadding="0" align="center">
+			<!-- 검색폼 시작 -->
+			<form name="searchForm" action="http://skin.leeshosting.com/H42/05.php?sub=1" method="post" onsubmit="return searchSendit();"></form>
+			<input type="hidden" name="boardIndex" value="1">
+			<input type="hidden" name="sub" value="1">
+
+			  <tbody><tr> 
+				<td width="70"> 
+				  <select name="search">
+					<option value="title">제 목</option>
+					<option value="content">내 용</option>
+					<option value="name">작성자</option>
+				  </select>
+				</td>
+				<td width="165"> 
+				  <input class="input" type="text" name="searchstring" size="25">
+				</td>
+				<td width="50"><input type="submit" value="검색" class="btn06" border="0" onfocus="blur();"></td>
+			  </tr>
+			<!-- searchForm -->
+			<!-- 검색폼 끝 -->
+			</tbody></table>
+
+		  
+		  </td>
+		</tr>
+		<tr> 
+		  <td height="25" align="center"><img src="./main_files/prev10.gif">&nbsp;&nbsp;&nbsp; <b>1</b> &nbsp;&nbsp;&nbsp;<img src="./main_files/next10.gif"></td>
+		</tr>
+	  </tbody></table>
+
+		  
+		  
+		  				
+				<!-- main -->
+
+				</td>
+              </tr>
+            </tbody></table>
+		  </td>
+        </tr>
+      </tbody></table></td>
+  </tr>
+</tbody></table>
+	
+  
+
+
+<table width="100%" border="0" cellspacing="0" cellpadding="0">
+
+  <tbody><tr>
+	<td height="50"></td>
+  </tr>
+  <tr>
+	<td height="1" bgcolor="dddddd"></td>
+  </tr>
+
+  <tr>
+	<td align="center" bgcolor="ffffff">
+		<table width="1000" border="0" cellspacing="0" cellpadding="0">
+		  <tbody><tr>
+		    <td style="padding:25px 30px;">
+<font class="copy02">
+
+가나다주식회사&nbsp;&nbsp;&nbsp;/&nbsp;&nbsp;&nbsp;주소 : 서울시 구로구 도림로 55길 123, 5층(구로동)&nbsp;&nbsp;&nbsp;/&nbsp;&nbsp;&nbsp;사업자등록번호 : 123-00-55555&nbsp;&nbsp;&nbsp;/&nbsp;&nbsp;&nbsp;대표 : 홍길동<br>
+전화번호 : 02-1234-5678&nbsp;&nbsp;&nbsp;/&nbsp;&nbsp;&nbsp;팩스번호 : 02-123-4567&nbsp;&nbsp;&nbsp;/&nbsp;&nbsp;&nbsp;Email : leeshosting@naver.com<br>
+COPYRIGHT(C) COMPANY NAME.CO.,LTD. ALL RIGHTS RESERVED. 
+</font>
+			</td>
+		  </tr>
+		  </tbody></table>
+	</td>
+  </tr>
+</tbody></table>
+
+
+</center>
+</body></html>
