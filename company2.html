@@ -180,42 +180,30 @@ function mypageLoginChek()
 
 
 			
-<table width="950" border="0" cellpadding="0" cellspacing="0">
-  <tbody><tr valign="top"> 
-    <td height="400" valign="top"><table width="950" border="0" cellspacing="0" cellpadding="0">
-		<tbody><tr>
-		  <td class="title">찾아오시는 길</td>
-		</tr>
-        <tr>
-          <td>
-            <table width="950" border="0" cellspacing="0" cellpadding="0">
-                <tbody><tr>
-                <td>
-				<!-- main -->
+<table width="950" border="0" cellspacing="0" cellpadding="0">
+	<tbody><tr>
+	<td>
+	<!-- main -->
 
-				<div id="map" style="width:500px;height:400px;"></div>
-				<script type="text/javascript" src="//dapi.kakao.com/v2/maps/sdk.js?appkey=050718902a07098216b330baabee3c3a"></script>
-				<script>
-					var container = document.getElementById('map');
-					var options = {
-						center: new kakao.maps.LatLng(33.450701, 126.570667),
-						level: 3
-					};
-			
-					var map = new kakao.maps.Map(container, options);
-				</script>
-				· 주소 : 경기도 안성시 대덕면 진현리 272-2<br>
-				· 전화번호 : 010-4768-2354
+	<div id="map" style="width:800px;height:600px;"></div>
+	<script type="text/javascript" src="//dapi.kakao.com/v2/maps/sdk.js?appkey=050718902a07098216b330baabee3c3a"></script>
+	<script>
+		var container = document.getElementById('map');
+		var options = {
+			center: new kakao.maps.LatLng(33.450701, 126.570667),
+			level: 3
+		};
 
-				<!-- main -->
+		var map = new kakao.maps.Map(container, options);
+	</script>
+	<br>
+	· 주소 : 경기도 안성시 대덕면 진현리 272-2<br>
+	· 전화번호 : 010-4768-2354
 
-				</td>
-              </tr>
-            </tbody></table>
-		  </td>
-        </tr>
-      </tbody></table></td>
-  </tr>
+	<!-- main -->
+
+	</td>
+	</tr>
 </tbody></table>
 	
   
